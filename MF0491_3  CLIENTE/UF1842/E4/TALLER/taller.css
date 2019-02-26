@@ -1,0 +1,116 @@
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            div.wrapper{
+                width: 100%;
+            }
+            header{
+                height: 90px;
+                text-align: center;
+                position: relative;
+                margin: 0; 
+                padding: 0;
+            }
+            div.logo{
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size:4vw;
+                font-family: 'Passion One', cursive;
+            }
+            nav{
+                height: 50px;
+                text-align: center;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                }
+            li {
+                display: inline;
+                margin: 50px;
+                }
+            li a{
+                font-family: 'Saira Extra Condensed', sans-serif;
+                font-size:3vw;
+                text-decoration: none;
+                color: #000;  
+            }
+            li a:hover{
+                margin-top:-2px;
+                padding-bottom:12px;
+                color: darkblue;
+                text-decoration: underline;
+            }
+            div.contenido{
+                height: 400px;
+                width: 100%;
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: black;
+            }
+            div.izquierdo{
+                float: left;
+                margin-left: 120px;
+                width: 40%;
+                margin-top: 120px;
+
+            }
+            div.derecho{
+                float: right;
+                background-image: url("imgtaller/coche.png");
+                background-position: center;
+                height: 297px;
+                width: 650px;
+                margin-top: 70px;
+            }
+            h1{
+                font-family: 'Saira Extra Condensed', sans-serif;
+                font-size:4vw;
+                color: aliceblue;
+            }
+            p{
+                font-family: 'Saira Extra Condensed', sans-serif;
+                color: gray;
+                font-size:2vw;
+            }
+            div.contenido2{
+                height: 400px;
+                width: 100%;
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: white;
+            }
+            div.izquierdo2{
+                float: right;
+                margin-right: 120px;
+                width: 40%;
+                margin-top: 120px;
+            }
+            div.derecho2{
+                float: left;
+                background-image: url("imgtaller/coche2.png");
+                background-position: center;
+                height: 297px;
+                width: 650px;
+                margin-top: 70px;
+            }
+            h1.otroH1{
+                font-family: 'Saira Extra Condensed', sans-serif;
+                font-size:4vw;
+                color: black;
+            }
+            footer{
+                text-align: center;
+                font-size:2vw;
+                font-family: 'Saira Extra Condensed', sans-serif;
+                background-color: black;
+                color: whitesmoke;
+            }
