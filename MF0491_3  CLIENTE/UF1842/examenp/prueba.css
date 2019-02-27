@@ -1,0 +1,55 @@
+*{
+	
+}
+
+/* *{selectro universal se presenta con * aplica unas características a todo el html del documento}*/
+
+a:link{color:aquamarine;
+
+} /* no visitado*/
+a:visited{color:coral;
+
+}/* visitado*/
+a:hover{font-weight:bold;text-decoration: none;
+
+}/* cursosr sobre el link*/
+a:active{color: brown;
+
+}/* hacer click en el link*/
+
+/* selectores pseudo class se usan especialmente para links */
+
+p{ color:black;
+	letter-spacing: 1px;
+	text-align: right;
+	text-transform: capitalize;
+
+ }
+
+ /* selector tipo etiqueta : modifican las etiquetas del html*/
+
+  .subrayado {text-decoration: underline;
+
+
+ }
+
+ /*selector class .nombre y añadir en html class="nombre" se añade a todas las etiquetas de mismo nombre*/ 
+
+ #mayusculas { text-transform:uppercase;
+
+}
+
+/* selector id sólo hay una etiqueta igual en el html, no hay otra igual como con  el selectro class 
+con el que se pueden definir varias etiquetas iguales*/
+
+.body { font-family: sans-serif; 
+
+	font-size: 16px;
+	font-weight: bold;
+	font-style:italic;
+	font-variant:small-caps;
+	line-height: 3;
+	
+
+}
+
