@@ -1,0 +1,93 @@
+*{
+  background-color:black ;
+} 
+ 
+            div.wrapper{
+                width: 100%;
+            }
+
+ 
+            header{
+                height: 90px;
+                text-align: center;
+                position: relative;
+                margin: 0; 
+                padding: 0;
+                font-color:black;
+            }
+            div.logo{
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size:4vw;
+                font-family: 'Passion One', cursive;
+            }
+
+            nav{
+                height: 50px;
+                text-align: center;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                }
+            li {
+                display: inline;
+                margin: 50px;
+                }
+            li a{
+                font-family: 'Saira Extra Condensed', sans-serif;
+                font-size:3vw;
+                text-decoration: none;
+                color: #000;  
+            }
+            li a:hover{
+                margin-top:-2px;
+                padding-bottom:12px;
+                color: darkblue;
+                text-decoration: underline;
+            }
+
+.calculadora{
+	display:block;
+	margin:0 auto;
+	padding:20px;
+	background-color: black;
+	width:350px;
+	height:500px;
+	border-radius: 25px;
+}
+/*color borde claculadora*/
+.calculadora td button{
+	display:block;
+	width:70px;
+	height:70px;
+	font-size:25px;
+	background-color: black;
+
+}
+/*color botones */
+#resultado{
+	display:block;
+	text-align:center;
+	font-size:40px;
+	margin-bottom: 50px;
+	width:300px;
+	height: 100px;
+	line-height:100px;
+	
+	border-radius: 25px;
+	overflow-y: scroll;
+	
+/* pantalla calculadora color */
+	background-color: black;
+}
+
+
+#id {
+	font-color:yellow;
+}
